@@ -1,0 +1,138 @@
+# Python environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.pdm-built/
+.pixi/
+__pypackages__/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test and coverage reports
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+.coverage*
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Configuration files
+.env
+.envrc
+.pypirc
+
+# Local project configurations and IDE-specific files
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject/
+.pdm-python
+
+# Caches
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.webassets-cache/
+.mypy_cache/
+
+# Documentation
+docs/_build/
+mkdocs.yml
+/sitemap.xml
+/site
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Database files
+*.sqlite3
+*.db
+*.db-shm 
+*.db-wal
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Redis
+*.rdb
+*.aof
+*.pid
+
+# RabbitMQ
+mnesia/
+rabbitmq/
+rabbitmq-data/
+
+# ActiveMQ
+activemq-data/
+
+# SageMath files
+*.sage.py
+
+# Translation files
+*.mo
+*.pot
+
+# Abstra
+.abstra/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Python packaging utilities
+# Uncomment the following lines if you're using Pipenv, poetry, or other packaging tools and configure accordingly
+# Pipfile.lock
+# poetry.lock
+# pdm.lock
+# pixi.lock
+
+# Additional possible lines
+# .coverage
+# .coverage.*
+# *.egg
+
+# Temporary production files
+# This section can be used for server-specific temporary files like nginx or uwsgi logs
+# *.log
+
+# Output directories common in various development setups
+target/
+uploads/
